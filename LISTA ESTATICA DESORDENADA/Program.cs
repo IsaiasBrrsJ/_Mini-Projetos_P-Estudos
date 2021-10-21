@@ -178,7 +178,10 @@ namespace listaEstaticaDesordenada1._0
                         contadorDe_AlunoCadastrado++;
                     }
                     else
-                        break;
+                    {
+                        contadorDe_AlunoCadastrado++;
+                        return;
+                    }
                 }
                
             }
