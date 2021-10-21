@@ -342,7 +342,7 @@ namespace listaEstaticaDesordenada1._0
 
                     if (opcRemover == 1)
                     {
-                        cadastroDeAluno[achou] = cadastroDeAluno[contadorDe_AlunoCadastrado];
+                        cadastroDeAluno[achou] = cadastroDeAluno[contadorDe_AlunoCadastrado-1];
                         contadorDe_AlunoCadastrado--;
 
                         Console.Write("\n\nREMOVIDO COM SUCESSO....");
