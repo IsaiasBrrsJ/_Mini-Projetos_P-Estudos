@@ -152,11 +152,6 @@ namespace listaEstaticaDesordenada1._0
 
             if (contadorDe_AlunoCadastrado < qtdMaxima)
             {
-                if (contadorDe_AlunoCadastrado == 0)
-                {
-                    ++contadorDe_AlunoCadastrado;
-                }
-
                 for (int i = cad_aluno; i < qtdMaxima; i++)
                 {
 
