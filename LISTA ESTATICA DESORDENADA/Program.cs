@@ -38,7 +38,7 @@ namespace listaEstaticaDesordenada1._0
                 Console.WriteLine(" ");
 
                 Console.WriteLine("\n1- Cadastrar\n2- Remover\n3- Listar\n4- Consultar\n5- Atualizar\n6- Sair");
-                Console.Write("\nSelecione uma opção: ");
+                Console.Write("\nSelecione uma opção:  ");
                 int opc = int.Parse(Console.ReadLine());
 
                 Menu opcaSelecionada = (Menu)opc;
